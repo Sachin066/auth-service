@@ -8,7 +8,7 @@ import (
 
 func GetUsers(c *gin.Context) {
 	var users []User
-	initializers.DB.Find(&users)
+	db.DB.Find(&users)
 	c.JSON(200, users)
 }
 
