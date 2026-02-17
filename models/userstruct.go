@@ -1,4 +1,4 @@
-package userstruct
+package models
 
 import (
 	"gorm.io/gorm"
